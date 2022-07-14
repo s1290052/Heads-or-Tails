@@ -1,7 +1,7 @@
 import java.util.Random;
     import java.util.Scanner;
 
-    public class a{
+    public class d{
 
     public static void main(String[] args) {
 
@@ -11,6 +11,12 @@ import java.util.Random;
         int cou = 0;
 
 
+        System.out.println("Who are you?");
+       System.out.print(">");
+
+        String name = sc.nextLine();
+        System.out.println("Hello,"+name+"!");
+
         System.out.println("Tossing a coin,,,");
 
         for(int n = 0;n < 3;n++){
@@ -19,9 +25,7 @@ import java.util.Random;
 
             if(point == hands[0])cou++;
             System.out.println("Round "+t+": "+point);
-        }
-
-    int w = 3 - cou;
+      int w = 3 - cou;
     System.out.println("Heads: "+cou+", Tails: "+w);
 
   
