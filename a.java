@@ -29,8 +29,8 @@ import java.util.Random;
     System.out.println("Heads: "+cou+", Tails: "+w);
 
   if(cou >= 2){
-	System.out.println( "You won!");
-  }else System.out.println("You lost!");
+	System.out.println( name+" won!");
+  }else System.out.println(name+ " lost!");
     }
     }
 
