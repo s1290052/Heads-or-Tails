@@ -24,8 +24,9 @@ import java.util.Random;
     int w = 3 - cou;
     System.out.println("Heads: "+cou+", Tails: "+w);
 
-  
-
+  if(cou >= 2){
+	System.out.println( "You won!");
+  }else System.out.println("You lost!");
     }
     }
 
